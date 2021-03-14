@@ -1,7 +1,15 @@
+<!--
+ * @Author: aaenen
+ * @Date: 2021-03-12 14:41:02
+ * @LastEditTime: 2021-03-13 23:14:48
+ * @LastEditors: aaenen
+ * @Description:
+ * @FilePath: /maopu_manage/src/App.vue
+ * 打码不易，且行且珍惜！
+-->
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -12,12 +20,5 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
