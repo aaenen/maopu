@@ -1,5 +1,6 @@
 package com.aaenen.maopu_server;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,6 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 2.改完代码时候，cmd + F9可以进行热加载
  */
 @SpringBootApplication
+//启动前扫描dao这个包，加载进来
+@MapperScan("com.aaenen.maopu_server.dao")
 public class MaopuServerApplication {
 
     public static void main(String[] args) {

@@ -1,3 +1,12 @@
+/**
+ * @Author: aaenen
+ * @Date: 2021-03-12 14:41:02
+ * @LastEditTime: 2021-03-17 17:15:40
+ * @LastEditors: aaenen
+ * @Description:
+ * @FilePath: /maopu_manage/config/index.js
+ * 打码不易，且行且珍惜！
+ */
 
 'use strict'
 // Template version: 1.3.1
